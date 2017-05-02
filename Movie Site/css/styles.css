@@ -1,1 +1,274 @@
-    
+/*color: #252529; main*/
+/*color: #8b8b9f; secondary*/
+/*color: #73e298; highlight*/
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.clearfix:before, .clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.wrapper {
+    width: 1440px;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 300;
+}
+
+#top_header {
+    padding: 1.5em 0;
+}
+
+.logo {
+    float: left;
+    text-transform: uppercase;
+    font-size: 1.15em;
+    font-weight: 700;
+}
+
+.logo > span {
+    font-weight: 300;
+    color: #73e298;
+}
+
+#main_nav {
+    float: right;
+    font-size: .9em;
+    padding: 1em;
+}
+
+#main_nav > a {
+    color: #8b8b9f;
+    text-decoration: none;
+    margin-left: 1em;
+}
+
+#banner {
+    background:url(https://placeholdit.imgix.net/~text?txtsize=120&txt=1440%C3%97600&w=1440&h=600);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    margin: 6.5em 0;
+}
+
+#banner_content_wrapper {
+    width: 900px;
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#poster {
+    width: 275px;
+    float: left;
+}
+
+.featured_image{
+    width: 100%;
+    max-width: 100%;
+    border-radius: .5em;
+    -webkit-box-shadow: 0px 0px 76px 0px rgba(0, 0, 0, 0.47);
+    -moz-box-shadow: 0px 0px 76px 0px rgba(0, 0, 0, 0.47);
+    box-shadow: 0px 0px 76px 0px rgba(0, 0, 0, 0.47);
+}
+
+#content {
+    float: left;
+    width: 500px;
+    margin-left: 100px;
+}
+
+.title {
+    font-weight: 300;
+    display: inline;
+    font-size: 1.75em;
+    color: white;
+}
+
+.ratings {
+    display: inline;
+    margin-left: 1em;
+}
+
+.ratings > i {
+    color: #73e298;
+    font-size: 1.35em;
+    margin: 0 .15em;
+}
+
+.ratings > .inactive {
+    color: #48494d;
+}
+
+.description {
+    color: white;
+    font-size: 1em;
+    line-height: 2;
+}
+
+.info {
+    color: white;
+    font-size: .8em;
+    font-weight: 700;
+    margin-top: 3em;
+}
+
+.info > span {
+    margin: 0 .1em;
+}
+
+#top_movies, #top_shows {
+    padding: 5em 0;
+}
+
+#top_movies {
+    border-bottom: 1px solid #d4d4d4;
+}
+
+.top_title, .view_more {
+    display: inline;
+}
+
+.top_title {
+    font-size: 1.75em;
+}
+
+.wrapper > header {
+    padding: 0 0 1.5em 0;
+}
+
+.view_more {
+    float: right;
+    font-size: .8em;
+    margin: .75em 3.5%; 
+}
+
+.row {
+    width: 100%;
+}
+
+.post {
+    width: 14%;
+    float: left;
+    margin-right: 2.5%;
+}
+
+.post > img {
+    width: 100%;
+    max-width: 100%;
+    border-radius: .5em;
+}
+
+.ptitle {
+    font-size: 1.25em;
+    font-weight: 300;
+    margin: 1em 0 0 0;
+    color: #252529;
+}
+
+.movie_info {
+    font-size: .75em;
+    color:#8b8b9f;
+    margin: 0.5em 0;
+}
+
+#newsletter {
+    padding: 5em 0;
+    text-align: center;
+    background-color: #2a2a2E; 
+}
+
+.newsletter_inner {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.newsletter_inner > h2{ 
+    font-size: 1.7em;
+    color: white;
+}
+
+.sign_up_form {
+    margin-top: 3em;
+}
+
+input {
+    width: 48%;
+    margin: 0.5%;
+    height: 3.25em;
+    border: none;
+    outline: none;
+    border-radius: .3em;
+    background-color: #404043;
+    padding: .5em 1.25em;
+    font-size: .8em;
+    color: white;
+}
+
+.button {
+    border: none;
+    outline: none;
+    padding: 1em 4.5em;
+    border-radius: 2em;
+    background-color: #73e298;
+    color: white;
+    font-weight: 700;
+    font-size: .9em;
+    margin-top: 3em;
+}
+
+#footer {
+    padding: 2.5em 0;
+    text-align: center;
+}
+
+.footer_logo {
+    text-transform: uppercase;
+    font-size: 1.15em;
+    font-weight: 700;
+    text-align: center;
+}
+
+.footer_logo > span {
+    font-weight: 300;
+    color: #73e298;
+}
+
+
+.copyright {
+    color: #8b8b9f;
+    margin: 0;
+    font-size: .75em;
+}
+
+.links {
+    display: inline;
+}
+
+.links > a {
+    color: #8b8b9f;
+    font-size: .75em;
+    text-decoration: none;
+    margin: 0 .5em;
+}
+
+.links > a:hover {
+    color: #73e298;
+}
