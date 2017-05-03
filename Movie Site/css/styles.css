@@ -33,6 +33,10 @@ h1, h2, h3, h4, h5, h6 {
     padding: 1.5em 0;
 }
 
+.menu {
+    display: none;
+}
+
 .logo {
     float: left;
     text-transform: uppercase;
@@ -271,4 +275,39 @@ input {
 
 .links > a:hover {
     color: #73e298;
+}
+
+@media only screen and (max-width: 768px) {
+    #main_nav {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+        float: right;
+    }
+
+    .menu > i {
+        font-size: 1.5em;
+        color: #252529;
+        padding-top: .6em;
+    }
+
+    #main_nav.active {
+        width: 100%;
+        display: block;
+    }
+
+    #main_nav > a {
+        display: block;
+        padding: 1em 0;
+        border-bottom: 1px solid #E9E9E9;        
+    }
+
+    #main_nav > a:last-child {
+        border-bottom: none;
+    }
+
+
+
 }
