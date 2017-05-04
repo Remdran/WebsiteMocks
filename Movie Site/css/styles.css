@@ -66,7 +66,6 @@ h1, h2, h3, h4, h5, h6 {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 600px;
     margin: 6.5em 0;
 }
 
@@ -161,7 +160,7 @@ h1, h2, h3, h4, h5, h6 {
 .view_more {
     float: right;
     font-size: .8em;
-    margin: .75em 3.5%; 
+    margin: .75em 3.5% 0 0; 
 }
 
 .row {
@@ -201,6 +200,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .newsletter_inner {
     width: 600px;
+    max-width: 90%;
     margin: 0 auto;
 }
 
@@ -308,6 +308,171 @@ input {
         border-bottom: none;
     }
 
+    #banner {
+    margin: 3.5em 0;
+    }
+
+#poster {
+    width: 250px;
+    }
+
+#content {
+    margin-left: 50px;
+    }
+
+.title {
+    font-size: 1.5em;
+    }
+
+.ratings > i {   
+    font-size: 1em;
+    }
+
+.description {
+      font-size: .9em;
+    }
+
+.info {
+    font-size: .7em;
+    margin-top: 2em;
+    }
+
+#top_movies, #top_shows {
+    padding: 3em 0;
+}
+
+.top_title {
+    font-size: 1.5em;
+}
+
+.wrapper > header {
+    padding: 0 0 1.5em 1.25%;
+}
+
+.view_more {
+    float: right;
+    font-size: .8em;
+    margin: .75em 2.5% 0 0; 
+}
+
+.post {
+    width: 30.6%;
+    float: left;
+    margin: 0 1.25% 2em 1.25%;
+}
+
+.ptitle {
+    font-size: 1em;
+    margin: .5em 0;
+}
+
+.movie_info {
+    font-size: .65em;
+}
+}
+
+@media only screen and (max-width: 600px) {
+ #banner {
+    margin: 3.5em 0;
+    }
+
+    #banner_content_wrapper {
+    display: block;
+    }
+
+#poster {
+    width: 250px;
+    float: none;
+    display: block;
+    margin: 0 auto;
+    }
+
+#content {
+    width: 100%;
+    margin: 1em auto 0 auto;
+    }
+
+    #top_movies, #top_shows {
+    padding: 3em 0;
+}
+
+.top_title {
+    font-size: 1.5em;
+}
+
+.wrapper > header {
+    margin-bottom:2em;
+}
+
+.view_more {
+    float: right;
+    font-size: .8em;
+    margin: .75em 2.5% 0 0; 
+}
+
+.post {
+    width: 250px;
+    float: none;
+    margin: 0 auto 2em auto;
+}
+
+#newsletter {
+    padding: 3em 0;
+}
+
+.newsletter_inner > h2{ 
+    font-size: 1.35em;
+}
+
+.sign_up_form {
+    margin-top: 2em;
+}
+
+input {
+    width: 90%;
+    margin: 0 0 1em 0;
+}
+
+.button {
+    margin-top: 2em;
+}
+
+#footer {
+    padding: 2.5em 0;
+    text-align: center;
+}
+
+.footer_logo {
+    text-transform: uppercase;
+    font-size: 1.15em;
+    font-weight: 700;
+    text-align: center;
+}
+
+.footer_logo > span {
+    font-weight: 300;
+    color: #73e298;
+}
 
 
+.copyright {
+    color: #8b8b9f;
+    margin: 0;
+    font-size: .75em;
+}
+
+.links {
+    display: inline;
+}
+
+.links > a {
+    color: #8b8b9f;
+    font-size: .75em;
+    text-decoration: none;
+    margin: 0 .5em;
+}
+
+.links > a:hover {
+    color: #73e298;
+}
 }
