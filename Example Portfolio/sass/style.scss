@@ -75,11 +75,17 @@ $white: #FFFFFF;
         width: 48.5%;
         float: left;
     }
+    .card_third {
+        width: 75%;
+        float: left;
+    }
     .left {
         margin-right: 1.5%;
     }
     .right { 
         margin-left: 1.5%;
+    }.tall {
+        height: 700px;
     }
     .card_inner {
         display: table-cell;
@@ -97,9 +103,11 @@ $white: #FFFFFF;
         font-size: 3em;
         margin: 0;
     }
+    .pink, .green, .purple, .blue {
+        border-radius: .35em;
+    }
     .pink {
         background: rgba(230, 56, 222, .6);
-        border-radius: .35em;
     }
     .green {
         background: rgba(80, 218, 93, .6);
@@ -109,5 +117,62 @@ $white: #FFFFFF;
     }
     .blue {
         background: rgba(131, 226, 245, .6);
+    }
+    .view_more {
+        width: 25%;
+        float: left;
+        height: 450px;
+        padding-left: 3em;
+        p {
+            font-size: 1.25em;
+            font-weight: 700;
+            line-height: 450px;
+            margin: 0;
+            color: rgb(146, 146, 171);
+            text-transform: none;
+        }
+        a {
+            text-decoration: none;
+            &:hover {
+                p{
+                color: $pink;
+                }
+            }
+        }
+    }
+}
+
+footer {
+    padding: 3em 0;
+    .logo {
+        float: left;
+        margin: 0;
+    }
+    ul {
+        list-style: none;
+        margin: 0;
+        padding-top: 1em;
+    }
+    li {
+        display: inline;
+        float: left;
+        margin-left: 4em;
+    }
+    .title {
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: .75em;
+        display: block;
+        padding-bottom: .5em;
+    }
+    .links {
+        font-size: 1.75em;
+        a {
+            color: $grey;
+            text-decoration: none;
+            &:hover {
+                color: $pink;
+            }
+        }
     }
 }

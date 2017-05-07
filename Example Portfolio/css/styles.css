@@ -57,10 +57,15 @@
   .work .card_half {
     width: 48.5%;
     float: left; }
+  .work .card_third {
+    width: 75%;
+    float: left; }
   .work .left {
     margin-right: 1.5%; }
   .work .right {
     margin-left: 1.5%; }
+  .work .tall {
+    height: 700px; }
   .work .card_inner {
     display: table-cell;
     vertical-align: middle;
@@ -74,14 +79,58 @@
   .work h2 {
     font-size: 3em;
     margin: 0; }
-  .work .pink {
-    background: rgba(230, 56, 222, 0.6);
+  .work .pink, .work .green, .work .purple, .work .blue {
     border-radius: .35em; }
+  .work .pink {
+    background: rgba(230, 56, 222, 0.6); }
   .work .green {
     background: rgba(80, 218, 93, 0.6); }
   .work .purple {
     background: rgba(145, 89, 219, 0.6); }
   .work .blue {
     background: rgba(131, 226, 245, 0.6); }
+  .work .view_more {
+    width: 25%;
+    float: left;
+    height: 450px;
+    padding-left: 3em; }
+    .work .view_more p {
+      font-size: 1.25em;
+      font-weight: 700;
+      line-height: 450px;
+      margin: 0;
+      color: #9292ab;
+      text-transform: none; }
+    .work .view_more a {
+      text-decoration: none; }
+      .work .view_more a:hover p {
+        color: #ea48eb; }
+
+footer {
+  padding: 3em 0; }
+  footer .logo {
+    float: left;
+    margin: 0; }
+  footer ul {
+    list-style: none;
+    margin: 0;
+    padding-top: 1em; }
+  footer li {
+    display: inline;
+    float: left;
+    margin-left: 4em; }
+  footer .title {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .75em;
+    display: block;
+    padding-bottom: .5em; }
+  footer .links {
+    font-size: 1.75em; }
+    footer .links a {
+      color: #414148;
+      text-decoration: none; }
+      footer .links a:hover {
+        color: #ea48eb; }
 
 /*# sourceMappingURL=styles.css.map */
